@@ -1,0 +1,103 @@
+program pemilihan_jurusan
+
+deklarasi
+var fakultas, prodi : integer;
+
+algoritma:
+output "PROGRAM PEMILIHAN JURUSAN UNIRA MALANG
+        1. Sains dan Teknologi
+        2. Fakultas Ilmu Sosial dan Politik
+        3. Fakultas Ilmu Pendidikan
+        4. Fakultas Ilmu Keislaman
+        5. Fakultas Ekonomi dan Bisnis"
+input fakultas;
+if(fakultas == 1) then
+    output "PROGRAM STUDI FAKULTAS SAINTEK
+            1. Teknik Informatika
+            2. Sistem Informasi
+            3. Teknik Mesin
+            4. Teknik Elektro
+            5. Agroteknologi"
+    input prodi;
+    if(prodi == 1) then
+        output "Mahasiswa Prodi Teknik Informatika Fakultas Saintek"
+    else
+    if(prodi == 2) then
+        output "Mahasiswa Prodi Sistem Informasi Fakultas Saintek"
+    else
+    if(prodi == 3) then
+        output "Mahasiswa Prodi Teknik Mesin Fakultas Saintek"
+    else
+    if(prodi == 4) then
+        output "Mahasiswa Prodi Teknik Elektro Fakultas Saintek"
+    else
+    if(prodi == 5) then
+        output "Mahasiswa Prodi Agroteknologi Fakultas Saintek"
+    else
+        output "Tidak ada pilihan prodi!"
+    end
+
+else
+if(fakultas == 2) then
+    output "PROGRAM STUDI FISIP
+            1. Psikologi
+            2. Ilmu Pemerintahan"
+    input prodi;
+    if(prodi == 1) then
+        output "Mahasiswa Prodi Psikologi Fakultas Ilmu Sosial dan Politik"
+    else
+    if(prodi == 2) then
+        output "Mahasiswa Prodi Ilmu Pemerintahan Fakultas Ilmu Sosial dan Politik"
+    else
+        output "Tidak ada pilihan prodi!"
+    end
+
+else
+if(fakultas == 3) then
+    output "PROGRAM STUDI FIP
+            1. Pendidikan IPS
+            2. PGSD"
+    input prodi;
+    if(prodi == 1) then
+        output "Mahasiswa Prodi Pendidikan IPS Fakultas Ilmu Pendidikan"
+    else
+    if(prodi == 2) then
+        output "Mahasiswa Prodi PGSD Fakultas Ilmu Pendidikan"
+    else
+        output "Tidak ada pilihan prodi!"
+    end
+
+else
+if(fakultas == 4) then
+    output "PROGRAM STUDI FIK
+            1. PAI
+            2. PGMI"
+    input prodi;
+    if(prodi == 1) then
+        output "Mahasiswa Prodi PAI Fakultas Ilmu Keislaman"
+    else
+    if(prodi == 2) then
+        output "Mahasiswa Prodi PGMI Fakultas Ilmu Keislaman"
+    else
+        output "Tidak ada pilihan prodi!"
+    end
+
+else
+if(fakultas == 5) then
+    output "PROGRAM STUDI FEB
+            1. HES
+            2. Manajemen
+            3. Perbankan Syari'ah"
+    input prodi;
+    if(prodi == 1) then
+        output "Mahasiswa Prodi HES Fakultas Ekonomi dan Bisnis"
+    else
+    if(prodi == 2) then
+        output "Mahasiswa Prodi Manajemen Fakultas Ekonomi dan Bisnis"
+    else
+    if(prodi == 3) then
+        output "Mahasiswa Prodi Perbankan Syari'ah Fakultas Ekonomi dan Bisnis"
+    else
+        output "Tidak ada pilihan prodi!"
+    end
+end
